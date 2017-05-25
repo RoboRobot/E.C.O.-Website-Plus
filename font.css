@@ -1,14 +1,18 @@
-h1 {
-    color:green;
+
+h1, h3, p {
+    color:black;
     font-family: 'Audiowide', sans-serif;
 }
 
-h2 {
-    color:green;
-    font-family: 'Audiowide', sans-serif;
+#image2 {
+    padding-left: 200px;
 }
 
-p {
-    color:green;
-    font-family: 'Audiowide', sans-serif;
+#image3 {
+    padding-left: 300px;
+}
+
+#CaristaInfo,
+#AppInfo {
+    text-align: center;
 }
