@@ -3,38 +3,49 @@
     <head>
         <meta charset="utf-8"
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
     </head>
     
     <body>
-    <div class="ECO">
-        <h1>Car Monitoring App </h1>
-    </div>
-    
+    <header class="container">
+      <h1 class="col-sm-4">E.C.O.</h1>
+      <nav class="col-sm-8 text-right">
+        <div class="form-inline">
+            <a class="btn btn-default active" href="index.html">Home</a>
+            <a class="btn btn-default" href="information.html">Information</a>
+            <a class="btn btn-default" href="about.html">About</a>
+        </div>
+      </nav>
+  </header>
+    <section class="jumbotron">
+        <div class="container">
+            <h1>Car Monitoring App </h1>
+        </div>
+    </section>
     <hr>
-    <div>
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="information.html">Information</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>    
-    </div>   
-    <div style="margin-left:23%">
-        <h3> Start driving more economically and environmentally friendly with ECO. </h3>
-        <p id="Info"> Learn how well you are driving and find ways to improve it with ECO. Calculate how much CO2 your car is emitting per trip as well as how much gasoline you are consuming. this app also calculates a ECO score, and you can compete with your friends to see who drives the best.</p>
-        
-    </div>
-    <div>
-    <img src="Assets/Icon 512x512.png" id="image2">
-    <p id="AppInfo"> You can view our app on the Google Play store. </p>
-    <a href="https://play.google.com/store/apps/details?id=com.ionicframework.eco369952&hl=en"> <img src="Assets/google-play-badge.png"  id="google"> </a> 
-    </div>   
-    
-    <div>
-    <img src="Assets/Carista.png" id="image3">
-    <p id="CaristaInfo"> Or, if you are looking for the Carista Adapter, click <a href="https://www.amazon.com/Carista-Bluetooth-Adapter-Scanner-Android/dp/B00YVHGTBM">here</a>. 
-    </p>
-            
-    </div>
+    <section class="container">
+        <div>
+            <h3>
+            Start driving more economically and environmentally friendly with ECO.
+            </h3>
+            <p> Learn how well you are driving and find ways to improve it with ECO. Calculate how much CO2 your car is emitting per trip as well as how much gasoline you are consuming. this app also calculates a ECO score, and you can compete with your friends to see who drives the best.</p>
+        </div>
+        </section>
+        <section class="container">
+        <div class="row">
+            <figure class="col-sm-5"> 
+                <img src="Assets/Icon 512x512.png" id="image2">
+                <p id="AppInfo"> You can view our app on the Google Play store. </p>
+                <a href="https://play.google.com/store/apps/details?id=com.ionicframework.eco369952&hl=en"> <img src="Assets/google-play-badge.png"  id="google"> </a>
+            </figure>
+
+            <figure class="col-sm-5 col-sm-offset-2">
+                <img src="Assets/Carista.png" id="image3">
+                <p id="CaristaInfo"> Or, if you are looking for the Carista Adapter, click <a href="https://www.amazon.com/Carista-Bluetooth-Adapter-Scanner-Android/dp/B00YVHGTBM">here</a>. 
+                </p>  
+                </figure>
+            </div>
+        </section>
         
     
        
