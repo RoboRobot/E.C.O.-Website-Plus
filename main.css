@@ -1,4 +1,6 @@
-
+body {
+    background-color:#eff0f2 !important;
+}
 #google {
     width:258; 
     height:100;
@@ -17,8 +19,7 @@ iframe{
     text-align: center;
 }
 
-
-h3,h2,p {
+p {
     color:black;
     font-family: 'Audiowide', sans-serif;
     font-size:20
@@ -28,8 +29,6 @@ h3,h2,p {
     background-image: url("Assets/Eco banner.png");
     background-position:center;
     background-size: cover;
-    color:black;
-    font-family: 'Audiowide', sans-serif;
 }
 
 .jumbotron h1 {
@@ -40,6 +39,8 @@ h3,h2,p {
 header {
 
   font-family: 'Audiowide', sans-serif;
+  color:white;
+  background-color:darkslategray
 }
 
 .form-inline {
@@ -48,4 +49,13 @@ header {
 
 .row {
     position:absolute
+}
+.container {
+    font-family: 'Audiowide', sans-serif;
+    display:block;
+}
+iframe{
+    float:right;
+    clear:left;
+    justify-content: flex-end
 }
